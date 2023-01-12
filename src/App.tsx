@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="App bg-black h-screen grid place-items-center">
+    <div className="App bg-black h-screen flex justify-center items-center flex-col gap-28">
       <h1 className="neonText text-7xl text-pink-400 lg:text-9xl ">
         Framfickan
       </h1>
