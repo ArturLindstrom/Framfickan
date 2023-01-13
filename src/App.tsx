@@ -4,9 +4,16 @@ function App() {
       <h1 className="neonText text-7xl text-pink-400 lg:text-9xl ">
         Framfickan
       </h1>
-      <a href="" className="neonText underline text-5xl">
-        Meny
-      </a>
+      {/* add <a> tag that downloads the pds from public folder */}
+
+      <div className="flex gap-16">
+        <a href="/Meny.pdf" className="neonText underline text-5xl">
+          Meny
+        </a>
+        <a href="/Drinkmeny.pdf" className="neonText underline text-5xl">
+          Dryck
+        </a>
+      </div>
     </div>
   );
 }
